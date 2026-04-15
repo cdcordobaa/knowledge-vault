@@ -1,0 +1,41 @@
+# Neo4j Data (DO NOT COMMIT)
+neo4j/data/
+neo4j/plugins/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Sensitive Information (CRITICAL)
+.env
+.env.local
+.env.*.local
+server-details.md
+secrets.json
+*.key
+*.pem
+*.crt
+.npmrc
+.pypirc
+
+# IDEs and OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+raw/
+graph/graph.json
+graph/hashes.json
+wiki/log.md

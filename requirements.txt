@@ -1,0 +1,2 @@
+neo4j>=5.0,<6.0
+sentence-transformers>=2.2.0
